@@ -34,10 +34,6 @@
             {
                 Console.WriteLine($"{car.Brand}: {car.Model} - {car.HorsePower}hp");
             }
-            foreach (Car car in listOfCars.OrderBy(x => x.Brand))
-            {
-                Console.WriteLine($"{car.Brand}: {car.Model} - {car.HorsePower}hp");
-            }
 
             Console.WriteLine("Trucks:");
             foreach (Truck truck in listOfTrucks.OrderBy(x => x.Brand))
